@@ -1,0 +1,22 @@
+﻿@using ParkerResume.Web.Controllers
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Parker's Resume Site</title>
+    <link href="/Public/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <h1>Hello World!</h1>
+    <a href="@Url.Action("Resume", "Home")">My Resume</a>
+    
+    <ul>
+        @for (var i = 1; i < 11; i++)
+        {
+            <li>I am at: @i</li>
+        }
+    </ul>
+</div>
+</body>
+</html>
