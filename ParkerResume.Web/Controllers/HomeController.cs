@@ -8,7 +8,7 @@ namespace ParkerResume.Web.Controllers
         {
             return View();
         }
-
+        
         public ActionResult Resume()
         {
             return View();
